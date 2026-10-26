@@ -1,0 +1,43 @@
+{
+  "project": "pocketledger",
+  "product": {
+    "kind": "app",
+    "description": "A budgeting app for freelancers: it reads bank exports on the phone, sorts spending into tax categories and shows what to set aside each month. No account, no server.",
+    "story": "Taxes without the spreadsheet.",
+    "markets": "Sold worldwide through the App Store and Google Play; home market the United States and Canada.",
+    "requirements": [
+      "Short, easy to say, easy to spell after hearing it once.",
+      "A hint of meaning is welcome; plain made-up names are fine.",
+      "A standard-price .app domain (.com is a bonus).",
+      "No live trademark conflict in software, finance or tax, and no same-name app in a nearby category."
+    ]
+  },
+  "related_categories": ["personal finance and budgeting apps", "accounting and invoicing software", "tax tools", "banking and payments apps"],
+  "banned_names": ["mint", "ynab", "quickbooks", "freshbooks", "wave", "copilot"],
+  "block_i_prefix": false,
+  "crowded_roots": ["budget", "tax", "ledger", "coin", "cash", "pay", "fin"],
+  "name_length": [4, 9],
+  "domains": { "tlds": ["com", "app", "ca"], "preferred": "app" },
+  "stores": {
+    "app_store": true,
+    "countries": ["us", "ca"],
+    "risky_genres": ["finance", "business", "productivity"],
+    "google_play": true
+  },
+  "trademarks": {
+    "core_classes": [9, 36, 42],
+    "jurisdictions": ["United States", "Canada", "United Kingdom", "European Union"]
+  },
+  "languages": ["English", "French"],
+  "search_region": "us-en",
+  "accept_language": "en-US,en;q=0.9",
+  "generator": {
+    "roots": ["pocket", "fol", "tally", "ledg", "sav", "nest", "reck", "mint", "kept", "arro"],
+    "endings": ["o", "a", "io", "ly", "ra", "en", "ix", "elo", "ari", "uno"],
+    "themes": [
+      "keeping and counting: tally, keep, reckon, nest",
+      "calm and clear: still, lucid, plain",
+      "coined blends of a money word with a soft ending"
+    ]
+  }
+}

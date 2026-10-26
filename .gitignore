@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Your own briefs and their screening data: private by default. Examples stay.
+*-data/
+*.brief.json
+my-brief*.json
